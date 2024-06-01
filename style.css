@@ -1,0 +1,27 @@
+.loading{
+    height: 8px;
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    border-radius: 20px;
+    background-color: black;
+    color: aqua;
+    animation: loadingAnimation 2s infinite ease-in-out;
+}
+@keyframes loadingAnimation {
+    0%,25%{
+        width: 0px;
+        background-color: blue;
+        background-color: white;
+    }
+    75%,100%{
+        width: 250px;
+        /* background-color: blueviolet; */
+        background-color: rgb(154, 111, 111);
+    }
+}
+    
